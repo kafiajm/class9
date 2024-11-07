@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.contanier{
+    width: 80%;
+    margin: 0 auto;
+}
+.jannat{
+    clear: both;
+}
+
+/* navigation part css start */
+nav{
+    background-color: #38c8a8;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 15px 40px;
+}
+.menu ul li a{
+    color: #424949;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.menu ul li:hover{
+    background-color: #48D1CC;
+}
+.menu ul li a:hover{
+    color: grey;
+}
+
+/* navigation part css end */
+/* banner part CSS start */
+
+.banner{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_overlay{
+    padding: 150px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.banner_content{
+    margin-left: 15%;
+}
+.banner_content h3{
+    color: #8b8bf1;
+    font-size: 50px;
+    font-weight: 500;
+}
+.banner_content h1{
+    color: white;
+    font-size: 90px;
+    font-weight: 500;
+    margin-top: -40px;
+}
+.banner_content p{
+    color: white;
+    font-size: 20px;
+    padding-right: 50%;
+    margin-bottom: 45px;
+}
+/* banner part CSS end */
+/* COMMON BUTTON part css sTART */
+
+.common_button a{
+    color: white;
+    font-size: 20px;
+    background-color: #38c8a8;
+    padding: 15px 45px;
+    border-radius: 15px;
+}
+.common_button a:hover{
+    background-color: #48D1CC;	
+}
+/* COMMON BUTTON part css END */
+
+/* COMMON HEAD part css sTART */
+.common_head h4{
+    text-align: center;
+    width: 30%;
+    margin: 40px auto;
+    padding: 10px 30px;
+    border-bottom: 3px solid #38c8a8;
+    color: #424949;
+    font-size: 40px;
+    font-weight: 600;
+} 
+/* COMMON HEAD part css END */
+/* about part CSS start */
+
+.about_photo, .about_content{
+    width: 50%;
+    float: left;
+}
+.about_photo img{
+    width: 100%;
+}
+
+.about_content h4{
+    text-align: center;
+    padding: 120px 0 25px;
+    color: #424949;
+    font-size: 40px;
+    font-weight: 400;
+}
+.about_content P{
+    text-align: justify;
+    color: #424949;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 0 60px;
+    margin-bottom: 45px;
+}
+.about_content .common_button{
+    text-align: center;
+
+}
+
+
+
+/* about part CSS end */ 
